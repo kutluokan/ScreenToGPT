@@ -14,7 +14,7 @@ TOKEN = os.environ.get("TOKEN")
 bot = Bot(TOKEN)
 
 async def main(text) -> NoReturn:
-    await bot.send_message("1223886279", text)
+    await bot.send_message("", text)
 
 
 # Initialize OpenAI client
